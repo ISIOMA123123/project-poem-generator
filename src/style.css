@@ -1,4 +1,74 @@
 body{
     background-color: bisque;
-    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 } 
+.container{
+ margin: 130px auto;
+ max-width: 600px;   
+}
+
+header{
+    margin-bottom: 30px;
+}
+
+main{
+
+}
+
+form{
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 0px 24px 40px rgba(43, 34, 100, 0.88);
+}
+
+.poem{
+font-size: 16px;
+background-color: white;
+margin-top: 10%;
+margin-bottom: 5%;
+padding: 20px;
+line-height: 2;
+font-weight: 400;
+border-left: 3px solid;
+color: rgba(34, 34, 32, 0.952);
+border: 5px solid rgba(105, 58, 105, 0.596);
+border-radius: 15px;
+box-shadow: 0px 24px 40px rgba(45, 34, 100, 0.88);
+}
+
+.poemTopic{
+   padding: 10px;
+   border: 3px solid rgba(rgba(233, 17, 17, 0.863), rgba(24, 211, 24, 0.904), rgba(2, 2, 187, 0.788), 0.5); 
+   width: 80%;
+   font-size: 16px;
+   color: rgba(10, 10, 10, 0.863);
+   border-radius: 10px;
+}
+
+.submitButton{
+ margin-left: 10px;
+ background-color: #78287b7c; 
+ border-radius: 10px;  
+ color: rgba(34, 34, 32, 0.952);
+ width: 45%;
+ font-weight: bold;
+}
+
+h1{
+    text-align: center;
+ font-weight: 800px; 
+ font-size: 36px;
+ line-height: 1.5;
+ color: rgba(11, 12, 12, 0.856);  
+}
+
+footer{
+    text-align: center;
+    font-size: 15px;
+}
+
+a{
+    color: rgba(76, 75, 141, 0.952);
+}
